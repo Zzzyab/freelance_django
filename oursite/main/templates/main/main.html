@@ -1,13 +1,14 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Main</title>
-  <link rel="stylesheet" href="../../static/css/yadanil.css" type="text/css">
-</head>
-<body>
+{% extends 'main/base.html' %}
+
+{% block title %}
+Main
+{% endblock %}
+
+{% block style %}
+
+{% endblock %}
+
+{% block content %}
   <div id="container">
     <span id = "title">
       <font id="blue">V</font>
@@ -20,5 +21,4 @@
     <p id="search"><input maxlength="25" size=70 value=""></p>
     <p><input id="button" type="submit" name="Submit" value="Поиск" /></p>
   </div>
-</body>
-</html>
+{% endblock %}
