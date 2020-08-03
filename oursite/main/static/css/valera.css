@@ -29,6 +29,8 @@ body {
     border-radius: 50px;
     outline: none;
     border: 1px solid gray;
+    font-size: 16px;
+    padding: 5px 12px;
 }
 
 .Search:focus {
