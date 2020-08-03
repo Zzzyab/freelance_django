@@ -45,8 +45,11 @@ body {
 }
 
 .loopa {
-  padding: 42px 290px;
+  padding: 44px 290px;
   position: absolute;
   z-index: 10;
   pointer-events: none;
 }
+
+@media screen and (device-width: 1024px) {
+    .loopa {padding: 44px 274px;}
