@@ -5,20 +5,23 @@ Main
 {% endblock %}
 
 {% block style %}
-
+<link rel="stylesheet" href="../../static/css/valera.css" type="text/css">
 {% endblock %}
 
 {% block content %}
-  <div id="container">
-    <span id = "title">
-      <font id="blue">V</font>
-      <font id="red">a</font>
-      <font id="yellow">l</font>
-      <font id="blue">e</font>
-      <font id="green">r</font>
-      <font id="red">a</font>
-    </span>
-    <p id="search"><input maxlength="25" size=70 value=""></p>
-    <p><input id="button" type="submit" name="Submit" value="Поиск" /></p>
-  </div>
+
+<div class="main-page">
+
+    <div class="top">
+        <img class="Logo" src="../../static/images/logo.png" alt="Valera">
+        <input class="Search" size="50" maxlength="2048" type="search" name="Searching Line" value="">
+    </div>
+
+
+    <div class="foot">
+
+    </div>
+
+</div>
+
 {% endblock %}

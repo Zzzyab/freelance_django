@@ -5,10 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{% block title %}{% endblock %}</title>
-  <link rel="stylesheet" href="../../static/css/yadanil.css" type="text/css">
-  <style>
-    {% block style %}{% endblock %}
-  </style>
+  {% block style %}{% endblock %}
 </head>
 <body>
     {% block content %}{% endblock %}
