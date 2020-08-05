@@ -10,7 +10,7 @@ body {
 .top {
     position: relative;
     margin: 0 auto;
-    height: 440px;
+    height: 442px;
 }
 
 .Logo {
@@ -32,7 +32,7 @@ body {
     font-size: 16px;
     padding: 16px 32px;
     padding-top: 18px;
-    padding-left: 55px;
+    padding-left: 60px;
     position: relative;
 }
 /*
