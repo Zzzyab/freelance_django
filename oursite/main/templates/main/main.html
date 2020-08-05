@@ -1,11 +1,11 @@
 {% extends 'main/base.html' %}
-
+{% load static %}
 {% block title %}
 Main
 {% endblock %}
 
 {% block style %}
-<link rel="stylesheet" href="../../static/css/valera.css" type="text/css">
+<link rel="stylesheet" href={% static "css/valera.css" %} type="text/css">
 {% endblock %}
 
 {% block content %}
@@ -13,11 +13,12 @@ Main
 <div class="main-page">
 
     <div class="top">
-        <img class="Logo" src="../../static/images/logo.png" alt="Valera">
+        <img class="Logo" src={% static "/images/logo.png" %} alt="Valera">
         <div class="loopa">
           &#128269;
         </div>
-        <input class="Search" size="50" maxlength="2048" type="search" name="Searching Line" value="">
+        <input class="Search" id= "Search" size="50" maxlength="2048" type="search" name="Searching Line" value="">
+        <button onclick="search()">Поиск</button>
     </div>
 
 
@@ -26,5 +27,7 @@ Main
     </div>
 
 </div>
+
+<script src={% static "scripts/search.js" %}></script>
 
 {% endblock %}
