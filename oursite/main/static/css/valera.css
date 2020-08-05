@@ -10,7 +10,7 @@ body {
 .top {
     position: relative;
     margin: 0 auto;
-    height: 436px;
+    height: 440px;
 }
 
 .Logo {
@@ -59,7 +59,7 @@ body {
   font-size: 24px;
   color: #AEAEAE;
   margin: 0 auto;
-  border: none;
+  border: solid #F1F1F1;
   border-color:  #F2F2F2;
   top: 120px;
   right: 374px;
@@ -73,7 +73,8 @@ body {
 
 .button:hover {
   background-color: #F7F7F7;
-  color: #B7B7B7;
+  color: #6E6E6E;
+  border: solid #B7B7B7;
 }
 
 
