@@ -10,6 +10,7 @@ body {
 .top {
     position: relative;
     margin: 0 auto;
+    height: 414px;
 }
 
 .Logo {
@@ -44,12 +45,14 @@ body {
   border-color: rgba(128, 128, 128, 0.9);
 }
 
-.loopa {
-  padding: 44px 290px;
+.magnifier {
+  width: 24px;
+  bottom: 0;
+  left: 27%;
   position: absolute;
   z-index: 10;
   pointer-events: none;
 }
 
-@media screen and (device-width: 1024px) {
-    .loopa {padding: 44px 274px;}
+/* @media screen and (device-width: 1024px) {
+    .loopa {padding: 44px 274px;} */
