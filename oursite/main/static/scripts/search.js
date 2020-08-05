@@ -7,3 +7,9 @@ function search() {
   }
 
 }
+
+document.addEventListener('keydown', function(event) {
+  if (event.code == 'Enter') {
+    search();
+  }
+});
