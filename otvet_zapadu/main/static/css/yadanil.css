@@ -1,0 +1,57 @@
+
+
+#blue {
+  color: #428bff;
+  font-size: 600%;
+  font-family: fantasy
+}
+
+#red {
+  color: #f0463a;
+  font-size: 600%;
+  font-family: fantasy
+}
+
+#yellow {
+  color: #f5e427;
+  font-size: 600%;
+  font-family: fantasy
+}
+
+#green {
+  color: #00a616;
+  font-size: 600%;
+  font-family: fantasy
+}
+
+#container {
+  height: 10em;
+  position: relative
+}
+
+#title {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  overflow: auto;
+  position: absolute;
+  top: 150%;
+  margin-left: 43%;
+}
+
+#search {
+  display: inline-block;
+  overflow: auto;
+  position: absolute;
+  top: 220%;
+  margin-left: 36%;
+}
+
+#button {
+  display: inline-block;
+  overflow: auto;
+  position: absolute;
+  top: 270%;
+  margin-left: 47%;
+  font-size: 200%;
+}
