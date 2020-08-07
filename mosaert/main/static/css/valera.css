@@ -41,6 +41,7 @@ body {
 
 .header:hover {
   background-color: #fff;
+  transition: 1s;
 }
 
 .header_inner {
