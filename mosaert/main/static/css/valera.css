@@ -27,6 +27,8 @@ body {
   background: url("../static/images/Intro.jpg") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
+
+  padding: 0;
 }
 
 .header {
@@ -43,6 +45,19 @@ body {
 
   padding-top: 30px;
 
+}
+
+.fakeheader {
+  background-color: #fff;
+  width: 100%;
+  height: 120px;
+  border-bottom: 1px solid #E5E2EA;
+  position: absolute;
+  top: -120px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  transition: .3s linear;
 }
 
 .header:hover {
@@ -68,7 +83,7 @@ body {
 .nav {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .nav_link {
@@ -82,7 +97,7 @@ body {
 .nav_link_sales {
   vertical-align: top;
   display: inline-block;
-  margin: 20px;
+  top: 20px;
   text-decoration: none;
   color: #fff;
 }
@@ -93,10 +108,18 @@ body {
 }
 
 .nav_link_sales:hover {
-  color: #E3C4BF;
+  color: #fff;
   border: 1px solid #E3C4BF;
-  border-radius: 20px;
+  border-radius: 50px;
   text-decoration: none;
-  padding: 15px;
-  margin: 0;
+  margin: 5px;
+  background-color: #E3C4BF;
+}
+
+.nav_link_ethics {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 20px 40px 20px;
+  text-decoration: none;
+  color: #fff;
 }
