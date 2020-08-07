@@ -57,13 +57,10 @@ body {
   left: 0;
   right: 0;
   z-index: 100;
-  transition: .3s linear;
+  transition: .5s ease;
 }
 
-.header:hover {
-  background-color: #fff;
-  transition: 1s;
-}
+
 
 .header_inner {
   justify-content: space-between;
@@ -92,6 +89,7 @@ body {
   margin: 20px;
   text-decoration: none;
   color: #fff;
+  transition: .5s ease;
 }
 
 .nav_link_sales {
@@ -100,6 +98,7 @@ body {
   top: 20px;
   text-decoration: none;
   color: #fff;
+  transition: .5s ease;
 }
 
 .nav_link:hover {
@@ -114,6 +113,7 @@ body {
   text-decoration: none;
   margin: 5px;
   background-color: #E3C4BF;
+
 }
 
 .nav_link_ethics {
@@ -122,4 +122,5 @@ body {
   margin: 20px 20px 40px 20px;
   text-decoration: none;
   color: #fff;
+  transition: .5s ease;
 }
