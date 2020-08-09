@@ -1,4 +1,5 @@
 {% extends 'main/base.html' %}
+{% load static %}
 {% block title %}
 mosaert store
 {% endblock %}
@@ -11,7 +12,8 @@ mosaert store
 
 {% include 'main/header.html' %}
 
-<div class="intro">
+<div class="">
+  <img class = "intro" src='{% static "images/intro.jpg" %}' alt="">
 </div>
 
 {% endblock %}
