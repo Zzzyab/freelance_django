@@ -26,7 +26,7 @@ body {
 
 @media screen and (max-device-width: 1024px) {
     .contrintro {
-      
+
     }
 }
 
@@ -80,10 +80,13 @@ body {
 }
 
 .header_logo {
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 215px;
+  height: 40px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 
 
@@ -119,11 +122,12 @@ body {
 }
 
 .nav_link_sales:hover {
+  color: #fff;
+
   text-decoration: none;
   border: 3px solid #DBB4AF;
   border-radius: 20px;
   background-color: #DBB4AF;
-  color: #fff;
 }
 
 .nav_link_ethics {

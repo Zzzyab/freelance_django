@@ -10,8 +10,8 @@ $(document).ready(function(){
             "border-radius":"20px",
             "padding":"0px 15px"});
         },
-
     );
+
 
     $('.header').on('mouseout', function(){
             $(".fakeheader").css({"top":"-120px", "left":"0"});
@@ -19,7 +19,7 @@ $(document).ready(function(){
             $(".nav_link_ethics").css({"color":"#fff"})
             $(".nav_link_sales").css({"color":"#fff",
             "border":"none",
-            "padding":"0px"})  
+            "padding":"0px"})
         }
 
     );
