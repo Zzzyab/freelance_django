@@ -94,13 +94,17 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 15px;
+  margin: 20px 0px 20px;
+  top: 30%;
+
+  text-align: center;
 }
 
 .nav_link {
   display: inline-block;
   vertical-align: top;
-  margin: 20px;
-  font-size: 15px;
+  padding-right: 20px;
+  font-size: relative;
   text-decoration: none;
   color: #fff;
   transition: .3s ease;
@@ -114,33 +118,31 @@ body {
 .nav_link_sales {
   display: inline-block;
   vertical-align: top;
-  margin: 20px 20px 40px 20px;
   text-decoration: none;
   color: #fff;
-  font-size: 15px;
+  font-size: relative;
   transition: .3s ease;
 }
 
 .nav_link_sales:hover {
-  color: #fff;
+  color: #DBB4AF;
 
   text-decoration: none;
   border: 3px solid #DBB4AF;
   border-radius: 20px;
-  background-color: #DBB4AF;
 }
 
 .nav_link_ethics {
   display: inline-block;
   vertical-align: top;
-  margin: 20px 20px 40px 20px;
+  padding-right: 20px;
   text-decoration: none;
   color: #fff;
   transition: .3s ease;
-  font-size: 15px;
+  font-size: relative;
 }
 
 .nav_link_ethics:hover {
-  color: ;
+  color: #CACACA;
   text-decoration: none;
 }
